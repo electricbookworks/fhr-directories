@@ -1,0 +1,9 @@
+<div class="listings listings-by-province">
+{% assign listings = site.data.advice-offices | sort: 'name' %}
+{% for listing in listings %}
+{% capture province-code %}{{ include.province-code }}{% endcapture %}
+{% if listing.province == province-code %}
+{% include listing.html %}
+{% endif %}
+{% endfor %}
+</div><!--.listings-by-province-->

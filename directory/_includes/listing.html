@@ -1,0 +1,26 @@
+
+<div class="listing" itemscope itemtype="http://schema.org/Organization">
+
+    <h3 class="listing-title" itemprop="name">{% if listing.name %}{{ listing.name }}{% endif %}</h3>
+
+    <ul>
+
+    {% if listing.address %}<li itemprop="address" class="address">{{ listing.address | join: ', '}}</li>{% endif %}
+
+    {% if listing.province %}<li itemprop="areaServed" class="province">{{ site.data.province-codes.[listing.province] | join: ', '}}</li>{% endif %}
+
+    {% if listing.contact %}<li itemprop="employee" class="contact">{{ listing.contact | join: ', '}}</li>{% endif %}
+
+    {% if listing.phone %}<li itemprop="telephone" class="phone">{{ listing.phone | join: ', '}}</li>{% endif %}
+
+    {% if listing.cellphone %}<li itemprop="telephone" class="cellphone">{{ listing.cellphone | join: ', '}}</li>{% endif %}
+
+    {% if listing.email %}<li itemprop="email" class="email">
+    {% for email-address in listing.email %}
+        <a href="mailto:{{ email-address }}">{{ email-address }}</a>{% if forloop.last == true %}{% else %}, {% endif %}
+    {% endfor %}
+    </li>{% endif %}
+
+    </ul>
+
+</div><!--.listing-->

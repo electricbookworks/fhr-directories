@@ -1,0 +1,16 @@
+// Structure and major wrappers
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%; 
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	clear: both;
+	max-width: 40em;
+	margin: auto;
+	padding: 0 1em 0 1em;
+}

@@ -1,0 +1,85 @@
+// Nav bar
+
+// Mixins
+// Thanks http://stackoverflow.com/a/17181946/1781075
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content} // Chrome/Opera/Safari
+  &:-moz-placeholder           {@content} // Firefox 18-
+  &::-moz-placeholder          {@content} // Firefox 19+
+  &:-ms-input-placeholder      {@content} // IE 10+
+  &:placeholder-shown          {@content} // Spec
+  &:placeholder                {@content} // Possible future official selector
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: $sa-flag-white;
+    padding: 0.5em 0.5em 1em 0.5em;
+    width: 100%;
+    opacity: 0.9;
+    border-bottom: 1px solid #f2f2f2;
+    box-shadow: $box-shadow-default;
+    z-index: 1;
+    h1 {
+        font-size: $font-size-default;
+        margin: 0;
+        padding: 0.5em; // aligns with search field
+        float: left;
+    }
+    p, ul, ol, input {
+        font-family: $font-text-secondary;
+        font-size: $font-size-default;
+        color: #333333;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        ul {
+            font-size: inherit;
+        }
+    }
+    input {
+        max-width: 10em;
+        padding: 0.5em;
+        margin-left: 0.5em;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        background-color: inherit;
+        border: 1px dashed $color-text-main;
+        @include placeholder {
+            color: $color-text-main;
+        }
+    }
+}
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+#nav-bar a:hover {
+	color: #666666;
+}
+.home #nav-bar,
+.cover #nav-bar {
+	display: none;
+}
+
+// Keep content out of the way of the fixed nav bar
+#nav-bar + #wrapper {
+    margin-top: 8em;
+}
+
+// Media queries
+@media only screen 
+and (max-width: $media-query-width-break) { // Let nav-bar scroll out of view on small screens
+    #nav-bar {
+        position: relative;
+        .select-province {
+            float: left!important // keeps menu better aligned on narrow screens, important to override specificity
+        }
+    }
+    #nav-bar + #wrapper {
+        margin-top: 0;
+    }
+}

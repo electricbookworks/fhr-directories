@@ -1,0 +1,135 @@
+---
+# Screen styles
+---
+
+// WHAT IS THIS?
+// This is screen typography for the EBW book framework (https://github.com/electricbookworks/book-framework).
+// It is built with Sass. (See http://sass-lang.com, and http://jekyllrb.com/docs/assets for how Jekyll implements Sass.)
+// Jekyll will compile the finished CSS for your books in _site/css.
+// 
+// HOW TO USE IT
+// This file, screen.scss, sets the parent screen styles for all books in its collection.
+//
+// Switch existing book-design elements on or off with double-slash line comments.
+// Elements are gathered in design sets. Pick one or mix-n-match. And set variables, like fonts.
+// Our 'Classic' design set is on by default.
+//
+// To create a child stylesheet for a specific book, copy this file, change variables and if necessary add imports.
+// For new CSS, create new partials to import (named sensibly and saved in _scss), and/or add new CSS at the bottom of this file.
+// Save the child stylesheet alongside this file with a different name, e.g. screen-child-mybook.scss.
+// (Remember to name the child stylesheet, with a .css extension, for each book in _config.yml, e.g. screen-child-mybook.css.)
+
+// First, let's set character encoding. Don't change this.
+@charset "utf-8";
+
+// ----------------------
+// Hide unwanted elements
+// ----------------------
+
+// Uncomment these @imports to hide elements completely (also comment out @imports for these elements):
+// @import "hide-footer";
+// @import "hide-nav-bar";
+
+// -------------
+// Set variables
+// -------------
+
+$font-text-main: "Helvetica", "Arial", "DejaVu Sans", sans-serif;
+$font-text-secondary: "Helvetica", "Arial", "DejaVu Sans", sans-serif;
+$font-display-main: "Helvetica", "Arial", "DejaVu Sans", sans-serif;
+$font-display-secondary: "Helvetica", "Arial", "DejaVu Sans", sans-serif;
+$font-code: "Inconsolata", monospace;
+
+$font-size-default: 1.2em;
+$line-height-default: 150%;
+
+// Colours
+
+$color-text-main: #2f4f4f;
+
+// SA flag colours
+$sa-flag-red: #E23D28;
+$sa-flag-white: #FFFFFF;
+$sa-flag-green: #007C59;
+$sa-flag-yellow: #FCB514;
+$sa-flag-black: #000000;
+$sa-flag-blue: #0C1C8C;
+
+// Box shadows
+$box-shadow-default: 0 2px 0.5em $sa-flag-black;
+
+// ----------------------------------------------------
+// Import font files (@font-face) for fonts you specify
+// ----------------------------------------------------
+
+//@import "fonts/linux-libertine";
+//@import "fonts/source-sans-pro";
+//@import "fonts/inconsolata";
+//@import "fonts/crimson";
+//@import "fonts/noto-serif";
+
+// -------------------
+// Import master theme
+// -------------------
+
+
+// Theme variables
+$media-query-width-break: 650px;
+
+// Theme master partial
+@import "themes/fhr-directory/web";
+
+// -------------
+// Custom styles
+// -------------
+
+// Add any custom style rules here.
+
+body {
+    color: $color-text-main;
+}
+
+.listing {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        li {
+            // Break really long words if you have to (e.g. long emails and URLs)
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            word-break: break-word;
+        }
+    }
+}
+
+#nav-bar {
+    .select-province, .about {
+        //text-align: right;
+        margin-right: 1em;
+        padding: 0.5em;
+        float: right;
+        ul ul {
+            display: none;
+            min-width: 8em;
+            position: absolute; // Keeps list aligned with parent, along with right: 0;
+            left: 0;
+            background-color: white;
+            padding: 0.5em;
+            box-shadow: $box-shadow-default;
+        }
+        ul:hover ul, ul:active ul, ul:focus ul {
+            display: inline-block;
+        }
+        .select-province-list {
+            position: relative; // Required to make `ul ul {position: absolute}` work
+        }
+    }
+    .about {
+        float: right;
+    }
+
+    .search {
+        clear: both;
+    }
+}

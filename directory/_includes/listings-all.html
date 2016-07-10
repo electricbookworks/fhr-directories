@@ -1,0 +1,6 @@
+<div class="listings all-listings">
+{% assign listings = site.data.advice-offices | sort: 'name' %}
+{% for listing in listings %}
+{% include listing.html %}
+{% endfor %}
+</div><!--.listings-->

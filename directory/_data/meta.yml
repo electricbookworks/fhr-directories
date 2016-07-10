@@ -1,0 +1,54 @@
+########
+# SERIES
+########
+
+series:
+  # The name of the organisation or entity that owns this series
+  organisation: "Foundation for Human Rights"
+  # A live web address for the organisation
+  url: "https://fhr.org.za/"
+  # The name of the series of books in this folder.
+  name: "Directories"
+  # A one-liner about this series. Useful for Open Graph metadata.
+  description: "Useful directories from the Foundation for Human Rights."
+
+########
+# TITLES
+########
+
+## Metadata follows [Dublin Core](https://en.wikipedia.org/wiki/Dublin_Core#DCMI_Metadata_Terms)
+## Custom fields added to standard DC terms: subtitle, publisher URL
+
+titles:
+  cao-directory: # change `book-template` to match your book's folder name exactly
+    title: "Community Advice Offices"
+    subtitle: ""
+    creator: "Foundation for Human Rights" # E.g. the author
+    contributor: "" # E.g. other contributors
+    subject: "Reference" # E.g. BISAC terms (https://www.bisg.org/bisac/bisac-subject-codes) or BIC (http://editeur.dyndns.org/bic_categories)
+    description: "A directory of advice offices around South Africa." # E.g. the blurb
+    publisher: "Foundation for Human Rights" # E.g. the publisher, imprint or brand name
+    publisher-url: ""
+    date: "2016-07-31" # YYYY-MM-DD e.g. publication date
+    modified: "2016-07-31" # YYYY-MM-DD e.g. date of last revision
+    type: "Directory" # e.g. Novel, Poetry, Memoir
+    format: "Digital" # e.g. Paperback, Digital download, Digital online
+    identifier: "" # e.g. ISBN or UUID
+    source: "" # e.g. parent ISBN or ISTC
+    language: "en" # use ISO 639-1, 639-2, or 639-3 codes (in that order of preference)
+    relation: "" # e.g. other edition ISBN
+    coverage: "" # e.g. geographic place or chronological time span
+    rights: "All rights reserved.<br />No part of this book may be reproduced or transmitted in any form or by any electronic or mechanical means, including photocopying and recording, or any other information storage or retrieval system, without written permission from the publisher." # e.g. a copyright statement
+    products: # Metadata for each product for this title (only use values that override parent metadata)
+      print: 
+        date: "2016-07-31" # YYYY-MM-DD e.g. publication or creation date
+        format: "Print" # e.g. Paperback, Digital download, Digital online
+        identifier: "" # e.g. ISBN or UUID
+      web:
+        date: "2016-07-31" # YYYY-MM-DD e.g. publication date or last revision
+        format: "Digital online" # e.g. Paperback, Digital download, Digital online
+        identifier: "" # e.g. ISBN or UUID
+      epub:
+        date: "2016-07-31" # YYYY-MM-DD e.g. publication date or last revision
+        format: "Digital download" # e.g. Paperback, Digital download, Digital online
+        identifier: "" # e.g. ISBN or UUID

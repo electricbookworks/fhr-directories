@@ -56,7 +56,7 @@ $sa-flag-black: #000000;
 $sa-flag-blue: #0C1C8C;
 
 // Box shadows
-$box-shadow-default: 0 2px 0.5em $sa-flag-black;
+$box-shadow-default: 0 2px 0.5em $color-text-main;
 
 // ----------------------------------------------------
 // Import font files (@font-face) for fonts you specify
@@ -85,6 +85,9 @@ $media-query-width-break: 650px;
 
 // Add any custom style rules here.
 
+html, body {
+    height: 100%; // allows children to have % heights
+}
 body {
     color: $color-text-main;
 }

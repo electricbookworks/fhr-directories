@@ -3,6 +3,8 @@ title: Series home
 style: home
 ---
 
-# Advice Offices Directory
+# The Foundation for Human Rights
 
-[Full list](cao-directory/all.html)
+The FHR Community Advice Office Directory provides details for advice offices around South Africa. You can read it online here, or download a printable version.
+
+[Find offices](cao-directory/all.html){:.button} [Download PDF](download/cao-directory.pdf){:.button}

@@ -43,8 +43,7 @@
     <link rel="stylesheet" type="text/css" media="print" href="../css/{{ page.stylesheet-print }}" />
     <link rel="stylesheet" type="text/css" media="print" href="../css/mods/print-no-bleed.css" />
 </head>
-<!--ontouchstart="" onmouseover="" required for iOS devices-->
-<body class="{{ page.style }}" ontouchstart="" onmouseover="">
+<body class="{{ page.style }}">
 
 {% else %}
 <!doctype html>
@@ -73,6 +72,7 @@
     </script>
 
 </head>
-<body class="{{ page.style }}">
+<!--ontouchstart="" onmouseover="" required for iOS devices-->
+<body class="{{ page.style }}" ontouchstart="" onmouseover="">
 
 {% endif %}

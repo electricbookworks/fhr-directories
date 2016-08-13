@@ -157,7 +157,7 @@ a.button {
     }
     input {
         border: 1px dashed white;
-        max-width: auto;
+        max-width: none;
     }
     input:after {
         content: "Search";

@@ -6,7 +6,7 @@ series:
   # The name of the organisation or entity that owns this series
   organisation: "Foundation for Human Rights"
   # A live web address for the organisation
-  url: "https://fhr.org.za/"
+  url: "http://fhr.org.za/"
   # The name of the series of books in this folder.
   name: "Directories"
   # A one-liner about this series. Useful for Open Graph metadata.

@@ -1,5 +1,5 @@
 ---
-title: Series home
+title: Community Advice Office Directory
 style: home
 ---
 

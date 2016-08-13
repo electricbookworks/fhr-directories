@@ -1,5 +1,5 @@
 ---
-title: Directory
+title: All
 ---
 
 {% include listings-all.html %}

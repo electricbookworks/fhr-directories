@@ -148,6 +148,7 @@ a.button {
 #nav-bar {
     color: white;
     background-color: $amarightza-black;
+    border: 0;
     h1 {
         background-color: inherit;
     }
@@ -156,6 +157,7 @@ a.button {
     }
     input {
         border: 1px dashed white;
+        max-width: auto;
     }
     input:after {
         content: "Search";

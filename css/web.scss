@@ -179,6 +179,10 @@ a.button {
         ul:hover ul, ul:active ul, ul:focus ul {
             display: inline-block;
         }
+        li {
+            line-height: 100%; // keeps parent list items aligned with site name
+            padding-bottom: 0.5em;
+        }
         .select-province-list {
             position: relative; // Required to make `ul ul {position: absolute}` work
         }
@@ -186,7 +190,6 @@ a.button {
     .about {
         float: right;
     }
-
     .search {
         clear: both;
     }

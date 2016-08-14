@@ -146,6 +146,10 @@ a.button {
     }
 }
 
+.home #nav-bar {
+    display: block; // while this is a one-book series, we do show the nav-bar on the landing page.
+}
+
 #nav-bar {
     color: white;
     background-color: $amarightza-black;

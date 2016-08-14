@@ -1,7 +1,10 @@
 ---
-title: Community Advice Office Directory
+title: Community Advice Offices
 style: home
-# This page redirects to cao-directory/all.html
+# This is a one-book series, so our index page is book content.
+# We must set a page slug so that get-slug.html assigns that 
+# book's slug for links etc.
+slug: cao-directory
 ---
 
 {% include listings-all.html %}

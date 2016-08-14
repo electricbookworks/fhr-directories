@@ -68,17 +68,6 @@ image-set: "images"
 edition: "default"
 #edition: ""
 
-# Jekyll plugins
-# We only want to use ones that are supported by GitHub Pages!
-# To test locally, make sure you have bundler install and a Gemfile in the project root
-# that specifies `gem 'github-pages', group: :jekyll_plugins`
-gems:
-  - jekyll-redirect-from
-
-# And then whitelist them to work in --safe mode
-whitelist:
-  - jekyll-redirect-from
-
 # Set default values here for all documents/pages in this publication. 
 # (For technical details, see http://jekyllrb.com/docs/configuration/#front-matter-defaults).
 # Store only site configurations here, e.g. stylesheets, page styles, layouts, image folder, start page

@@ -1,1 +1,5 @@
+{% if page.style == 'home' %}
+{% capture slug %}{{ page.slug }}{% endcapture %}
+{% else %}
 {% capture slug %}{{ page.path | replace: "/", " " | truncatewords: 1, "" }}{% endcapture %}
+{% endif %}

@@ -15,7 +15,7 @@ url: http://localhost:4000
 
 # Change this to the name of your series folder, e.g. /my-cool-books
 # If you're using GitHub Pages, make this the name of your repo, e.g. /electric-book-workflow
-baseurl: "/cao-directory"
+baseurl: "/fhr-directories"
 
 # Leave this unchanged as kramdown unless you really know how and why to change your markdown processor
 markdown: kramdown
@@ -78,9 +78,6 @@ gems:
 # And then whitelist them to work in --safe mode
 whitelist:
   - jekyll-redirect-from
-
-# For the GitHub Pages gem to work, we need to specify our repo name
-repository: fireandlion/cao-directory
 
 # Set default values here for all documents/pages in this publication. 
 # (For technical details, see http://jekyllrb.com/docs/configuration/#front-matter-defaults).

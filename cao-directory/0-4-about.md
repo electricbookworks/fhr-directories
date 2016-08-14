@@ -1,5 +1,6 @@
 ---
 title: About
+style: frontmatter
 ---
 
 # About this directory

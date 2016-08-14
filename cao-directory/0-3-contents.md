@@ -12,7 +12,7 @@ style: contents-page
 
 # Contents
 
-1. [Introduction](0-4-intro.html#introduction)
+1. [About this directory](0-4-about.html#about-this-directory)
 {% if province-list contains "EC" %}1. [Eastern Cape](ec.html#eastern-cape){% endif %}
 {% if province-list contains "FS" %}1. [Free State](fs.html){% endif %}
 {% if province-list contains "GP" %}1. [Gauteng](gp.html#gauteng){% endif %}

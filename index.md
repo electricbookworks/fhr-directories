@@ -1,11 +1,15 @@
 ---
 title: Community Advice Office Directory
 style: home
+# This page redirects to cao-directory/all.html
 ---
 
-# The FHR Community Advice Office Directory
+{% include listings-all.html %}
 
-This directory, compiled by the Foundation for Human Rights, provides details for advice offices around South Africa. You can read it online here, or download a printable version.
+{% comment %}
 
-[Find offices](cao-directory/all.html){:.button} [Download PDF](download/cao-directory.pdf){:.button}
+Since there is only one book/directory in this series, we don't show a series landing page (like the text below) but rather this page redirects to cao-directory/all.html
 
+The `include listings-all.html` tag above is only a fallback in case the redirect breaks.
+
+{% endcomment %}

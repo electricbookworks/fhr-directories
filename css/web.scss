@@ -162,7 +162,7 @@ a.button {
     input:after {
         content: "Search";
     }
-    .select-province, .about {
+    .select-province, .about, .download {
         //text-align: right;
         margin-right: 1em;
         padding: 0.5em;
@@ -174,6 +174,7 @@ a.button {
             left: 0;
             background-color: $amarightza-black;
             padding: 0.5em;
+            margin-left: -0.5em; // in combination with padding, aligns text with parent
             box-shadow: $box-shadow-default;
         }
         ul:hover ul, ul:active ul, ul:focus ul {

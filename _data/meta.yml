@@ -44,11 +44,78 @@ titles:
         date: "2016-07-31" # YYYY-MM-DD e.g. publication or creation date
         format: "Print" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
+        files:
+          - "0-1-titlepage"
+          - "0-2-copyright"
+          - "0-3-contents"
+          - "0-4-about"
+          - "all"
+          - "ec"
+          - "fs"
+          - "gp"
+          - "kzn"
+          - "lp"
+          - "nc"
+          - "np"
+          - "nw"
+          - "wc"
       web:
         date: "2016-07-31" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital online" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
+        files:
+          - "0-0-cover"
+          - "0-1-titlepage"
+          - "0-2-copyright"
+          - "0-3-contents"
+          - "0-4-about"
+          - "all"
+          - "ec"
+          - "fs"
+          - "gp"
+          - "kzn"
+          - "lp"
+          - "nc"
+          - "np"
+          - "nw"
+          - "wc"
       epub:
         date: "2016-07-31" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
+        files:
+          - "0-0-cover"
+          - "0-1-titlepage"
+          - "0-2-copyright"
+          - "0-3-contents"
+          - "0-4-about"
+          - "all"
+          - "ec"
+          - "fs"
+          - "gp"
+          - "kzn"
+          - "lp"
+          - "nc"
+          - "np"
+          - "nw"
+          - "wc"
+      pdf-ebook:
+        date: "2016-07-31" # YYYY-MM-DD e.g. publication date or last revision
+        format: "Digital download" # e.g. Paperback, Digital download, Digital online
+        identifier: "" # e.g. ISBN or UUID
+        files:
+          - "0-0-cover"
+          - "0-1-titlepage"
+          - "0-2-copyright"
+          - "0-3-contents"
+          - "0-4-about"
+          - "all"
+          - "ec"
+          - "fs"
+          - "gp"
+          - "kzn"
+          - "lp"
+          - "nc"
+          - "np"
+          - "nw"
+          - "wc"

@@ -5,9 +5,14 @@
 
         <div class="about">
             <ul>
-                <li><a href="0-4-intro.html">About</a></li>
+                <li><a href="{{ site.baseurl }}/{{ slug }}/0-4-about.html">About</a></li>
             </ul>
         </div><!--.about-->
+        <div class="download">
+            <ul>
+                <li><a href="{{ site.baseurl }}/download/{{ slug }}.pdf">Download</a></li>
+            </ul>
+        </div><!--.download-->
 
 {% comment %}Get a list of all provinces listed{% endcomment %}
 {% capture province-list %}
@@ -20,16 +25,16 @@
         <div class="select-province">
             <ul class="select-province-list"><li>Select province</li>
                 <ul class="province-list">
-                    <li><a href="all.html">All</a></li>
-                    {% if province-list contains "EC" %}<li><a href="ec.html">Eastern Cape</a></li>{% endif %}
-                    {% if province-list contains "FS" %}<li><a href="fs.html">Free State</a></li>{% endif %}
-                    {% if province-list contains "GP" %}<li><a href="gp.html">Gauteng</a></li>{% endif %}
-                    {% if province-list contains "KZN" %}<li><a href="kzn.html">KwaZulu-Natal</a></li>{% endif %}
-                    {% if province-list contains "LP" %}<li><a href="lp.html">Limpopo</a></li>{% endif %}
-                    {% if province-list contains "NC" %}<li><a href="nc.html">Northern Cape</a></li>{% endif %}
-                    {% if province-list contains "NP" %}<li><a href="np.html">Northern Province</a></li>{% endif %}
-                    {% if province-list contains "NW" %}<li><a href="nw.html">North West</a></li>{% endif %}
-                    {% if province-list contains "WC" %}<li><a href="wc.html">Western Cape</a></li>{% endif %}
+                    <li><a href="{{ site.baseurl }}/{{ slug }}/all.html">All</a></li>
+                    {% if province-list contains "EC" %}<li><a href="{{ site.baseurl }}/{{ slug }}/ec.html">Eastern Cape</a></li>{% endif %}
+                    {% if province-list contains "FS" %}<li><a href="{{ site.baseurl }}/{{ slug }}/fs.html">Free State</a></li>{% endif %}
+                    {% if province-list contains "GP" %}<li><a href="{{ site.baseurl }}/{{ slug }}/gp.html">Gauteng</a></li>{% endif %}
+                    {% if province-list contains "KZN" %}<li><a href="{{ site.baseurl }}/{{ slug }}/kzn.html">KwaZulu-Natal</a></li>{% endif %}
+                    {% if province-list contains "LP" %}<li><a href="{{ site.baseurl }}/{{ slug }}/lp.html">Limpopo</a></li>{% endif %}
+                    {% if province-list contains "NC" %}<li><a href="{{ site.baseurl }}/{{ slug }}/nc.html">Northern Cape</a></li>{% endif %}
+                    {% if province-list contains "NP" %}<li><a href="{{ site.baseurl }}/{{ slug }}/np.html">Northern Province</a></li>{% endif %}
+                    {% if province-list contains "NW" %}<li><a href="{{ site.baseurl }}/{{ slug }}/nw.html">North West</a></li>{% endif %}
+                    {% if province-list contains "WC" %}<li><a href="{{ site.baseurl }}/{{ slug }}/wc.html">Western Cape</a></li>{% endif %}
                 </ul>
             </ul>
         </div><!--.select-province-->

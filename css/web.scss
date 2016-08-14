@@ -61,7 +61,8 @@ $amarightza-yellow: #fff200; // cmyk(0,5,100,0)
 $amarightza-black: #000000;
 
 // Box shadows
-$box-shadow-default: 0 2px 0.5em $amarightza-black;
+$box-shadow-bottom: 0 1px 0.5em $amarightza-black;
+$box-shadow-top: 0 0 0.5em $amarightza-black;
 
 // ----------------------------------------------------
 // Import font files (@font-face) for fonts you specify
@@ -175,7 +176,7 @@ a.button {
             background-color: $amarightza-black;
             padding: 0.5em;
             margin-left: -0.5em; // in combination with padding, aligns text with parent
-            box-shadow: $box-shadow-default;
+            box-shadow: $box-shadow-bottom;
         }
         ul:hover ul, ul:active ul, ul:focus ul {
             display: inline-block;
@@ -197,8 +198,13 @@ a.button {
 }
 
 #footer {
-    background: black;
-    min-height: 100%;
+    background-color: $amarightza-black;
+    position: fixed;
+    opacity: 0.95;
+    box-shadow: $box-shadow-top;
+    border: 0;
+    bottom: 0;
+    width: 100%;
     color: white;
     font-family: $font-display-secondary;
     padding: 0;

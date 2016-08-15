@@ -3,7 +3,7 @@ title: About
 style: frontmatter
 ---
 
-{% if site.ouput == "web" %}
+{% if site.output == "web" %}
 
 # About this directory
 

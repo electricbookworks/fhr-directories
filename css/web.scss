@@ -225,3 +225,18 @@ a.button {
         }
     }
 }
+// Hide the footer to save screen space until hover/tap
+#footer {
+    height: 1em;
+    &:hover, &:active, &:focus {
+        height: auto;
+    }
+    &:before { // An ellipsis that invites users to tap to show footer
+        content: "…";
+        display: block;
+        text-align: right;
+        float: right;
+        margin: -2em 1em;
+        color: black;
+    }
+}

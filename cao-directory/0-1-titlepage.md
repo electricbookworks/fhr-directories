@@ -8,11 +8,8 @@ style: title-page
 {{ site.data.meta.titles.[slug].title }}
 {:.title-page-title}
 
-{{ site.data.meta.titles.[slug].subtitle }}
-{:.title-page-subtitle}
-
 {{ site.data.meta.titles.[slug].creator }}
 {:.title-page-author}
 
-{{ site.data.meta.titles.[slug].publisher }}
-{:.title-page-publisher}
+![Amarightza]({{ site.image-set }}/amarightza.jpg)
+{:.title-page-logo}

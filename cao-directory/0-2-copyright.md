@@ -15,11 +15,7 @@ style: copyright-page
 Text © {{ site.data.meta.titles.[slug].creator }}
 
 {% for id in site.data.meta.titles.[slug].products.print.identifier %}
-ISBN ({{ site.data.meta.titles.[slug].products.print.format }}): {{ id }}
-{% endfor %}
-
-{% for id in site.data.meta.titles.[slug].products.epub.identifier %}
-ISBN ({{ site.data.meta.titles.[slug].products.epub.format }}): {{ id }}
+ISBN: {{ id }}
 {% endfor %}
 
 {{ site.data.meta.titles.[slug].rights }}

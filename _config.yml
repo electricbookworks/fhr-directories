@@ -50,7 +50,7 @@ keep_files: [
 # Output different HTML structures based on intent.
 # You can change these here, or rather override by loading two config files at the command line, e.g.:
 # jekyll build -c _config.yml,_config.epub.yml
-output: "default"
+output: "web"
 #output: "epub"
 #output: "pdf-ebook"
 #output: "lightning-source-colour"

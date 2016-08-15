@@ -179,7 +179,24 @@ $amarightza-black: cmyk(0,0,0,1);
 
 // Title page
 
-.title-page {}
+.title-page {
+    margin-top: $line-height-default * 10;
+    .title-page-title {
+        font-size: $font-size-default * 2.5;
+        font-weight: 700;
+        line-height: 100%;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+    .title-page-author {
+        font-style: normal;
+        font-weight: 300;
+        font-size: $font-size-default;
+    }
+    .title-page-logo {
+        width: 8em;
+    }
+}
 
 // Previous publications page ('Also by the author')
 
@@ -191,7 +208,19 @@ $amarightza-black: cmyk(0,0,0,1);
 
 // Table of contents
 
-.contents-page {}
+.contents-page {
+    ol:first-of-type {
+        margin-top: $line-height-default * 6;
+    }
+    ol {
+        li {
+            margin: 0;
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
 
 // Dedication page
 
@@ -211,7 +240,7 @@ $amarightza-black: cmyk(0,0,0,1);
 
 // Headings
 
-h2 {
+h1, h2 {
     flow: static(running-head); // This removes the heading from the flow, it goes to the running head
     font-size: 12pt;
     text-transform: uppercase;
@@ -243,6 +272,10 @@ h2 {
 
 body {
     font-weight: 300;
+}
+p {
+    text-indent: 0;
+    margin-bottom: $line-height-default;
 }
 
 // Running heads
@@ -316,6 +349,32 @@ body {
     @include page-numbers();
   }
 }
+@page contents-page:left {
+  @top-left {
+    @include running-head();
+  }
+  @top-left-corner {
+    @include page-numbers();
+    margin-left: -5mm;
+    padding-left: 5mm;
+  }
+  @top-right-corner {
+    @include page-numbers();
+  }
+}
+@page contents-page:right {
+  @top-left {
+    @include running-head();
+  }
+  @top-right-corner {
+    @include page-numbers();
+    margin-right: -5mm;
+    padding-right: 5mm;
+  }
+  @top-left-corner {
+    @include page-numbers();
+  }
+}
 // Override first-page behaviour from parent partials
 @page chapter:left:first {
   @top-left { content: $verso-top-left; }
@@ -328,12 +387,22 @@ body {
   @top-right-corner { content: $recto-top-right-corner; }
 }
 @page frontmatter:left:first {
-  @top-left { content: normal; }
-  @top-left-corner { content: normal; }
-  @top-right-corner { content: normal; }
+  @top-left { content: $verso-top-left; }
+  @top-left-corner { content: $verso-top-left-corner; }
+  @top-right-corner { content: " "; }
 }
 @page frontmatter:right:first {
-  @top-left { content: normal; }
-  @top-left-corner { content: normal; }
-  @top-right-corner { content: normal; }
+  @top-left { content: $recto-top-left; }
+  @top-left-corner { content: " "; }
+  @top-right-corner { content: $recto-top-right-corner; }
+}
+@page contents-page:left:first {
+  @top-left { content: $verso-top-left; }
+  @top-left-corner { content: $verso-top-left-corner; }
+  @top-right-corner { content: " "; }
+}
+@page contents-page:right:first {
+  @top-left { content: $recto-top-left; }
+  @top-left-corner { content: " "; }
+  @top-right-corner { content: " "; }
 }

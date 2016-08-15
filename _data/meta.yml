@@ -33,8 +33,8 @@ titles:
     modified: "2016-07-31" # YYYY-MM-DD e.g. date of last revision
     type: "Directory" # e.g. Novel, Poetry, Memoir
     format: "Digital" # e.g. Paperback, Digital download, Digital online
-    identifier: "" # e.g. ISBN or UUID
-    source: "" # e.g. parent ISBN or ISTC
+    identifier: "978-0-620-72159-2" # e.g. ISBN or UUID
+    source: "978-0-620-72159-2" # e.g. parent ISBN or ISTC
     language: "en" # use ISO 639-1, 639-2, or 639-3 codes (in that order of preference)
     relation: "" # e.g. other edition ISBN
     coverage: "" # e.g. geographic place or chronological time span
@@ -43,7 +43,7 @@ titles:
       print: 
         date: "2016-07-31" # YYYY-MM-DD e.g. publication or creation date
         format: "Print" # e.g. Paperback, Digital download, Digital online
-        identifier: "" # e.g. ISBN or UUID
+        identifier: "978-0-620-72159-2" # e.g. ISBN or UUID
         files:
           - "0-1-titlepage"
           - "0-2-copyright"
@@ -80,7 +80,7 @@ titles:
       epub:
         date: "2016-07-31" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
-        identifier: "" # e.g. ISBN or UUID
+        identifier: "3670d740-46bc-452f-8cac-4fe918a442c7" # e.g. ISBN or UUID
         files:
           - "0-0-cover"
           - "0-1-titlepage"

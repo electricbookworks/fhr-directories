@@ -201,6 +201,11 @@ a.button {
     }
 }
 
+// Don't how search on certain pages, because we only do on-page search
+.about-page .search {
+    display: none;
+}
+
 #footer {
     background-color: $amarightza-black;
     position: fixed;

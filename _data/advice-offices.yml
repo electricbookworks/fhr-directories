@@ -1,7 +1,7 @@
 -
   name: Aliwal North Legal and Community Development Centre
   province: EC
-  address: 1811 Broadway Street
+  address: 1811 Broadway Street, Aliwal North
   cellphone: 079 293-8183
   phone: 051 634-1142
   email: takalaniradio2008@hotmail.co.za
@@ -27,7 +27,7 @@
   province: EC
   address: Port Elizabeth
   cellphone: 083 455-7569
-  phone: 041-581 2414
+  phone: 041 581-2414
   email: michael@pcrd.org.za
   contact: Michael Bendle
 -
@@ -43,7 +43,7 @@
 -
   name: Mount Fletcher Advice Centre
   province: EC
-  address: Room 08, Main Street, Mount Fletcher
+  address: Room 08, Main Street, SADC Building, Mount Fletcher
   cellphone: 073 605-8768
   phone: 039 257-0009
   email: 0609584647@vodamail.co,za
@@ -59,7 +59,7 @@
 -
   name: Interchurch Local Development Agency
   province: EC
-  address: 58 Constitution Road
+  address: 58 Constitution Street, Uitenhage
   cellphone: 079 852-1415
   phone: 
   email: iinterchurch@webmail.co.za
@@ -67,7 +67,7 @@
 -
   name: Adelaide Advice Centre
   province: EC
-  address: 56 Marais street, Adelaide
+  address: 56 Marais Street, Adelaide
   cellphone: 076 548-7982
   phone: 
   email: 
@@ -99,9 +99,9 @@
   cellphone: 078 367-0132
   phone: 047 573-0203
   email: phumlamsebe@gmail.com
-  contact: Phula Msebe
+  contact: Phumla Msebe
 -
-  name: Dordrecht Legal Advice Office And Community Development Agency
+  name: Dordrecht Legal Advice Office and Community Development Agency
   province: EC
   address: Dordrecht
   cellphone: 
@@ -113,7 +113,7 @@
 -
   name: Elliot Paralegal Advice And Community Development Centre
   province: EC
-  address: 300 Market Street
+  address: 300 Market Street, Old Municipality Building, Elliot
   cellphone: 073 375-1642
   phone: 
   email: guardianelliot@gmail.com
@@ -131,7 +131,7 @@
 -
   name: Fort Beaufort Advice Office
   province: EC
-  address: 52C Durban Str, Fort Beaufort
+  address: 52C Durban Street, Fort Beaufort
   cellphone: 083 331-1994
   phone: 046 645-2456
   email: noluvuyomgebesi@gmail.com
@@ -139,7 +139,7 @@
 -
   name: Hofmeyr Advice Office
   province: EC
-  address: 27 Voortrekker, Hofmeyr
+  address: 27 Voortrekker Street, Hofmeyr
   cellphone: 072 651-8415
   phone: 076 455-4553
   email: makazisintu@gmail.com
@@ -147,7 +147,7 @@
 -
   name: Indwe Legal Advice Office and Development Institution
   province: EC
-  address: 7 Woodehouse Street
+  address: 7 Woodehouse Street, Indwe
   cellphone: 082 846-5341
   phone: 045 952-1556
   email: indwe@adviceoffice.org.za
@@ -163,17 +163,19 @@
     - thandibewana@gmail.com
   contact: Thandi Bewana
 -
-  name: Lusikisiki Paralegal Advice Center
+  name: Lusikisiki Paralegal Advice Centre
   province: EC
-  address: EFR 399, Rofkruge Building, Room 12
-  cellphone: 083 464-7261
-  phone: 083 243-9844
+  address: Erf 399, Room 12, Rofkruge Building, Lusikisiki
+  cellphone: 
+      - 083 464-7261 
+      - 083 243-9844
+  phone: 
   email: vuyiswanogemane@yahoo.com
   contact: Vuyiswa Nogemane
 -
-  name: Maclean Town Advice Office
+  name: Macleantown Advice Office
   province: EC
-  address: 37 Jones Street
+  address: 37 Jones Street, Macleantown
   cellphone: 073 277-2152
   phone: 043 786-3040
   email: thabisaratshi-1@live.com
@@ -181,7 +183,7 @@
 -
   name: Masifunde Education And Development Project Trust
   province: EC
-  address: 08 Bathurift Str, Grahamstown
+  address: 08 Bathurst Street, Grahamstown
   cellphone: 078 623-8114
   phone: 046 622-7894
   email: masifunde2015@gmail.com
@@ -205,7 +207,7 @@
 -
   name: Mount Frere Paralegal Advice Office
   province: EC
-  address: ERF 173, Kwamajova Building, Mount Frere
+  address: Erf 173, Kwamajova Building, Mount Frere
   cellphone: 076 263-7185
   phone: 039 255-0321
   email: mountfrereadvicecentre@yahoo.co.za
@@ -221,7 +223,7 @@
 -
   name: Nonesi Development and Legal Advice Office
   province: EC
-  address: 1060 Braamfische Str, Zone 01, Ezibeleni
+  address: 1060 Braamfischer Road, Zone 01, Ezibeleni
   cellphone: 
     - 083 979-2016
     - 072 435-2700
@@ -231,7 +233,7 @@
 -
   name: Port St Johns Community Legal Advice Centre
   province: EC
-  address: 28 Westgate Str, Port St John
+  address: 28 Westgate Street, Port St Johns
   cellphone: 082 507-2283
   phone: 047 564-8276
   email: portstjohnslegaladvice@gmail.com
@@ -247,7 +249,7 @@
 -
   name: Xalanga Community Advice Centre
   province: EC
-  address: Mthatha road, Cala, Mxiweni Building
+  address: Mthatha Road, Mxiweni Building, Cala
   cellphone: 
   phone: 073 527-0171
   email: n.mbidlana@gmail.com
@@ -271,7 +273,7 @@
 -
   name: Mangaung Advice Centre
   province: FS
-  address: 2113 Bloemside Phase 10
+  address: 2113 Bloemside Phase 10, Bloemfontein
   cellphone: 073 844-4125
   phone: 051 430-2137
   email: b.thane@yahoo.com
@@ -289,7 +291,7 @@
 -
   name: Qholaqhwe Advice Centre
   province: FS
-  address: 1st Floor Room 19-23, Consultancy Building
+  address: 1st Floor Room 19-23, Consultancy Building, Naledi Mall, Phuthaditjhaba
   cellphone: 083 502-6633
   phone: 058 713-4880
   email: 
@@ -307,7 +309,7 @@
 -
   name: Thusanang Advice Centre
   province: FS
-  address: House No 8955 Mamello Street, Phuthaditjhaba
+  address: 8955 Mamello Street, Phuthaditjhaba
   cellphone: 072 724-1092
   phone: 058 713-6074
   email: tadvice@telkomsa.net
@@ -319,7 +321,7 @@
   cellphone: 
   phone: 073 242-9242
   email: sollymalakoane2015@gmail.com
-  contact: S Malakoane
+  contact: Solly Malakoane
 -
   name: Advice Desk for the Abused
   province: KZN
@@ -333,15 +335,15 @@
 -
   name: African Diaspora Forum
   province: GP
-  address: 9 Harley Street
+  address: 9 Harley Street, Yeoville
   cellphone: 083 514-7367
   phone: 011 487-0269
   email: africandiasporaforum@gmail.com
   contact: Marc Gbaffou
 -
-  name: Agisanang Domestic Abuse Prevention Training
+  name: Agisanang Domestic Abuse Prevention and Training (ADAPT)
   province: GP
-  address: Oliver Tambo Community Centre
+  address: Oliver Tambo Community Centre, 128 2nd Street, Alexandra
   cellphone: 
   phone: 011 440-4047
   email: adapt@worldonline.co.za
@@ -349,7 +351,7 @@
 -
   name: Dikeletsong Citizens Advice Bureau
   province: GP
-  address: Idasa Kutwanong Democracy Centre
+  address: Kutlwanong Democracy Centre, 357 Visagie Street, Pretoria
   cellphone: 
   phone: 012 322-6630
   email: cabpta@gmail.com
@@ -373,15 +375,15 @@
 -
   name: Etwatwa Community Law Advice Centre
   province: GP
-  address: 3441 Cnr Eiselen And 23rd Street
-  cellphone: 082 548 2184
+  address: 3441 Cnr Eiselen and 23rd Street
+  cellphone: 082 548-2184
   phone: 
   email: shabangu.m@hotmail.com
   contact: Mr. Shabangu
 -
   name: Kempton-Tembisa Advice Centre
   province: GP
-  address: 391 Isithama Section, Tembisa
+  address: 391 Isithame Section, Tembisa
   cellphone: 082 055-7907
   phone: 011 920-1824
   email: gndhlovu@telkomsa.net
@@ -389,7 +391,7 @@
 -
   name: National Alliance for the Development of Community Advice Offices
   province: GP
-  address: Gandhli Square, Metropolitan Building, 7th floor, JHB
+  address: 108 Fox Street, 7th floor, Metropolitan Building, Johannesburg
   cellphone: 
   phone: 011 339-1258
   email: secretariat@nadcao.org.za
@@ -398,7 +400,7 @@
   name: Ntsu Community Advice Office
   province: GP
   address: 696 Block U, Mabopane
-  cellphone: 073 243 0758
+  cellphone: 073 243-0758
   phone: 012 702-1337
   email: 
     - nwc@nadcao.org.za
@@ -407,23 +409,23 @@
 -
   name: Orange Farm Human Rights Advice Centre
   province: GP
-  address: 4602 Drieziek Extension 1
+  address: 4602 Drieziek Ext 1
   cellphone: 
-  phone: 011 850 3477
+  phone: 011 850-3477
   email: orangefarmadvicecentre@gmail.com
   contact: Bra Brics
 -
   name: People Against Human Abuse
   province: GP
-  address: Room 20
+  address: Room 20, Balebogeng Centre, Tshoeu Street, Mamelodi
   cellphone: 
-  phone: 012 805 7416
+  phone: 012 805-7416
   email: 
   contact: 
 -
-  name: People Opposing Women Abuse
+  name: People Opposing Women Abuse (POWA)
   province: GP
-  address: 64 Mitchell Street
+  address: 64 Mitchell Street, Johannesburg
   cellphone: 
   phone: 011 484-3195
   email: 
@@ -435,7 +437,7 @@
 -
   name: Probono.org
   province: GP
-  address: 1st Floor, West Wing, x001F Women's Jail
+  address: 1st Floor, West Wing, Women's Jail, Constitution Hill  
   cellphone: 
   phone: 011 339-6080
   email: 
@@ -445,7 +447,7 @@
 -
   name: Zola Advice Centre
   province: GP
-  address: 1824 Fihla Drive, Jabulani
+  address: 1824 Fihla Drive, Jabulani, Soweto
   cellphone: 083 466-5485
   phone: 011 930-2867
   email: 
@@ -458,7 +460,9 @@
   address: 11 Dulwich Road, Scottsville, Pietermaritzburg
   cellphone: 
   phone: 033 346-2909
-  email: info@ccjd.org.za/ finance@ccjd.org.za
+  email: 
+    - info@ccjd.org.za
+    - finance@ccjd.org.za 
   contact: Jabu Sangweni
 -
   name: Clermont Community Resource Centre
@@ -483,14 +487,14 @@
   province: KZN
   address: A 1100 Folweni Township
   cellphone: 072 841-3279
-  phone: 031 900 3454
+  phone: 031 900-3454
   email: folwenicrc@telkomsa.net
   contact: Rose Dlamini
 -
   name: Greater Molweni Community Resource Centre
   province: KZN
   address: 1058 KwaMbhekaphansi Shopping Centre
-  cellphone: 072 368 5871
+  cellphone: 072 368-5871
   phone: 031 776-4161
   email: 
     - makhobag@gmail.com
@@ -512,7 +516,7 @@
   province: KZN
   address: 1356 Nana Gumede Lane
   cellphone: 074 242-7103
-  phone: 031 905 3096
+  phone: 031 905-3096
   email: kwamakhuthacrc@webmail.co.za
   contact: Philile Zungu
 -
@@ -522,7 +526,7 @@
   cellphone: 
     - 078 248-0632
     - 082 979-7174
-  phone: 031 503 4301
+  phone: 031 503-4301
   email: mamondlane@yahoo.com
   contact: Simphiwe Mondlane
 -
@@ -602,15 +606,15 @@
 -
   name: Ditenteng Advice Office
   province: LP
-  address: Stand No 120. Ga Mphela Village, Molotjie
+  address: Stand No 120, Ga Mphela Village, Molotjie
   cellphone: 073 353-5738
-  phone: none
+  phone: 
   email: manthule.machakadebtcounselling@webmail.com
   contact: Dinah Senyatsi
 -
   name: Life Savers Foundation Empowerment Programme
   province: LP
-  address: Room 02 SAPS Makunya
+  address: Room 2 SAPS, Makunya
   cellphone: 
   phone: 015 957-9200
   email: millicent.nelamvi@lifesaversfoundation.org
@@ -632,7 +636,7 @@
   province: LP
   address: 584 Unit A, Mankweng Township
   cellphone: 082 396-3257
-  phone: 015 268--3221
+  phone: 015 268-3221
   email: 
     - jmabokela592@gmail.com
     - machakam@uliac.ac.za
@@ -648,7 +652,7 @@
 -
   name: Manthata Advice Office
   province: LP
-  address: Stand No 90 , Mohodi Ha-Manthata
+  address: Stand No 90, Mohodi Ha-Manthata
   cellphone: 076 551-7201
   phone: 
   email: madviceoffice@gmail.com
@@ -699,7 +703,7 @@
   name: Thushanang Community Health Project
   province: MP
   address: Stand No 238, Marulane
-  cellphone: 083 721 4588
+  cellphone: 083 721-4588
   phone: 
   email: 
   contact: 
@@ -714,9 +718,9 @@
 -
   name: Funda Development and Human Rights Resource Centre
   province: MP
-  address: Admin Building, cnr Voortrekker & McDonald Str, Belfast
+  address: Admin Building, Cnr Voortrekker & McDonald Street, Belfast
   cellphone: 083 685-2101
-  phone: 013 253 1998
+  phone: 013 253-1998
   email: ncedikankosi@gmail.com
   contact: Ncedi Ka-Nkosi
 -
@@ -739,7 +743,9 @@
   name: Masisukumeni Womens Crisis Centre
   province: MP
   address: Stand 2, 1341 Tonga, Kwa-Lugedlane
-  cellphone: 078 405-2702/072 631-6868
+  cellphone: 
+    - 078 405-2702
+    - 072 631-6868
   phone: 013 780-3364
   email: 
     - masisukumeni@hotmail.com
@@ -750,7 +756,7 @@
 -
   name: Nelspoort Advice and Development Office
   province: WC
-  address: Flat Nr. 02 Old Nurses Home, Nelspoort
+  address: Flat 2, Old Nurse's Home, Nelspoort
   cellphone: 
   phone: 023 416-1878
   email: nelspoort@telkomsa.net
@@ -766,7 +772,7 @@
 -
   name: Kgalaletso Advice Centre
   province: GP
-  address: Ga Rankuwa
+  address: Ga-Rankuwa
   cellphone: 076 115-6897
   phone: 
   email: kgalaletson@gmail.com
@@ -784,9 +790,10 @@
 -
   name: Standerton Advice and Development Resources Centre
   province: MP
-  address: 2th Floor, Suite 4 & 5 11a
+  address: 2nd Floor, Willem Veldmans Building, cnr Dr Beyers Naude and Burger Street,
+Standerton
   cellphone: 082 479-8741
-  phone: 017 712 1479
+  phone: 017 712-1479
   email: amon.zwane.sadrc@gmail.com
   contact: Amon Zwane
 -
@@ -811,12 +818,12 @@
   name: Komaggas Adiesdiens
   province: NC
   address: Pastoriestraat 209
-  cellphone: 084 4601490
-  phone: 027 821 1546
+  cellphone: 084 460-1490
+  phone: 027 821-1546
   email: andyp@lantic.net
   contact: Andy Pienaar
 -
-  name: 'Nisaa Institute for Women''s Development'
+  name: Nisaa Institute for Women's Development
   province: GP
   address: 19 Link Street, Lenasia
   cellphone: 
@@ -843,28 +850,28 @@
   email: makaleniclarens1@gmail.com
   contact: Clarens Makalani
 -
-  name: Kuruman Legal Advice And Development Centre
+  name: Kuruman Legal Advice and Development Centre
   province: NC
   address: John Taolo Gaetsewe District Municipality
   cellphone: 072 126-7037
-  phone: 053 712 0791
+  phone: 053 7120-0791
   email: 
     - cresciamakatong@yahoo.com
     - ancra@intekom.co.za
   contact: Margaret Jarvis
 -
-  name: Marydale Advice And Development Office
+  name: Marydale Advice and Development Office
   province: NC
   address: Van Wyk Street
   cellphone: 072 493-0743
-  phone: 054 871 5501
+  phone: 054 871-5501
   email: 
   contact: Isak Van Wijk
 -
   name: Nababeep Advice and Development Centre
   province: NC
   address: 218 Hospital Street
-  cellphone: 071 326 6729
+  cellphone: 071 326-6729
   phone: 027 713-8743/4
   email: nadec@lantic.net
   contact: Daniel Corolus
@@ -872,8 +879,8 @@
   name: Richtersveld Advice Office
   province: NC
   address: Alexcor Parkhome No 2
-  cellphone: 078 556 2764
-  phone: 027 851 8070
+  cellphone: 078 556-2764
+  phone: 027 851-8070
   email: pnadvice@mweb.co.za
   contact: Nicholas Sigam
 -
@@ -883,15 +890,15 @@
   cellphone: 
     - 071 123-0317
     - 072 414-9404
-  phone: 027 682 3306
+  phone: 027 682-3306
   email: 
   contact: Jacobus Lewis
 -
   name: Steinkopf Advice Centre
   province: NC
   address: Brecher Road
-  cellphone: 083 240 3041
-  phone: 027 721 8362
+  cellphone: 083 240-3041
+  phone: 027 721-8362
   email: steinkop@telkomsa.net
   contact: Fysch Dora
 -
@@ -913,7 +920,7 @@
   email: clcc@vodamail.co.za
   contact: 
 -
-  name: Leeudoringstad Advice and Development centre
+  name: Leeudoringstad Advice and Development Centre
   province: NW
   address: 499 Mogale Street
   cellphone: 072 194-3538
@@ -923,7 +930,7 @@
 -
   name: Letlhabile Network against Domestic Violence, Child Abuse and HIV
   province: NW
-  address: 268 Langa Str, Block G, Ward 09
+  address: 268 Langa Street, Block G, Ward 9
   cellphone: 082 502-8617
   phone: 
   email: langalanga84@yahoo.com
@@ -931,7 +938,7 @@
 -
   name: Letsopa Advice Centre
   province: NW
-  address: Department Of Education Resource Centre
+  address: Department of Education Resource Centre
   cellphone: 073 252-4261
   phone: 
   email: benkolojane@yahoo.com
@@ -947,7 +954,7 @@
   email: mdcs@telkomsa.net
   contact: Hansie Mabalane
 -
-  name: Orkney Community Legal Development And Education Centre
+  name: Orkney Community Legal Development and Education Centre
   province: NW
   address: 1504 Essop Phahad Street
   cellphone: 079 275-8583
@@ -957,7 +964,7 @@
     - ocldec@sn.apc.org
   contact: Isaac Matlawe
 -
-  name: Tswelelang Advice And Development Centre
+  name: Tswelelang Advice and Development Centre
   province: NW
   address: Community White House Complex, Tswelelang Location
   cellphone: 083 345-2272
@@ -967,7 +974,7 @@
 -
   name: CALEB Development and Training Association
   province: WC
-  address: 54 Dahlia Str, Idas Valley, Stellenbosch
+  address: 54 Dahlia Street, Idas Valley, Stellenbosch
   cellphone: 083 613-1307
   phone: 021 886-7775
   email: info@caleb.org.za
@@ -975,7 +982,7 @@
 -
   name: Southern Cape Land Committee (SCLC)
   province: WC
-  address: 101 Davidson Road, George, WC
+  address: 101 Davidson Road, George
   cellphone: 
   phone: 044 803-9900
   email: info@sclc.co.za
@@ -1000,12 +1007,12 @@
     - colette@wfp.org.za
     - admin@wfp.org.za
   contact: 
--
-  name: 'Women''s Legal Centre'
+
+  name: Women's Legal Centre
   province: WC
   address: 7th Floor, Constitution House
   cellphone: 
-  phone: 021 424 5660
+  phone: 021 424-5660
   email: hoodah@wlce.co.za
   contact: 
 -
@@ -1021,9 +1028,9 @@
   province: WC
   address: 
   cellphone: 
-    - 0834728410
-    - 084 387 8304
-    - 083 472 8410
+    - 083 472-8410
+    - 084 387-8304
+    - 083 472-8410
   phone: 
   email: heideadvice@telkomsa.net
   contact: Jesmine Krige
@@ -1046,15 +1053,15 @@
 -
   name: Beaufort West Advice and Development Centre
   province: WC
-  address: Methodist Church Building
-  cellphone: 082 869 1708
+  address: Methodist Church Building, Beaufort West
+  cellphone: 082 869-1708
   phone: 023 414-3334
   email: 
   contact: David Maans
 -
   name: Botrivier Advice and Development Centre
   province: WC
-  address: Kromco Buidling Fontein street,
+  address: Kromco Building, Fontein Street,
   cellphone: 079 370-2353
   phone: 028 284-9749
   email: badc@mweb.co.za
@@ -1062,33 +1069,35 @@
 -
   name: Mitchells Plain Community Advice and Development Project
   province: WC
-  address: Room 13, First Floor, OGS Building
+  address: Room 13, 1st Floor, OGS Building
   cellphone: 076 614-6045
-  phone: 021 392 2000
+  phone: 021 392-2000
   email: mitchellsplainadvice@telkomsa.net
   contact: William Simmers
 -
   name: Open Democracy Advice Centre
   province: WC
-  address: 6 Spin Street
+  address: 6 Spin Street, Cape Town
   cellphone: 
-  phone: 021 461 3096
+  phone: 021 461-3096
   email: Alisont@opendemocracy.org.za
   contact: Alison
 -
   name: Prince Albert Advice and Development Centre
   province: WC
-  address: 03 Voor Street
+  address: 3 Voor Street,Prince Albert
   cellphone: 072 738 0183/ 079 347 9859
   phone: 023 541-1722
   email: 
     - paakparalegal@gmail.com
     - mayibuye@mailbox.co.za
-  contact: Handrick & Angenick
+  contact: 
+    - Handrick
+    - Angenick
 -
   name: Sandveld Local Development Agency (SALDA)
   province: WC
-  address: 23 Ceder Street, Graafwater
+  address: 23 Cedar Street, Graafwater
   cellphone: 
   phone: 027 422-1619
   email: salda.gfw777@yahoo.com
@@ -1096,7 +1105,7 @@
 -
   name: Sekwele Centre for Social Reflection
   province: FS
-  address: Plot De Rust/Eden Plots Old Fouriseburg Rd, Bethlehem
+  address: Plot De Rust/Eden Plots, Old Fouriseburg Road, Bethlehem
   cellphone: 076 893-4330
   phone: 058 303-1459
   email: 

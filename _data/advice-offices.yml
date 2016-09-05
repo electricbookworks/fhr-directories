@@ -63,7 +63,7 @@
   cellphone: 079 852-1415
   phone: 
   email: iinterchurch@webmail.co.za
-  contact: Mrs NE Mofokeng
+  contact: Nobuzwe Mofokeng
 -
   name: Adelaide Advice Centre
   province: EC
@@ -103,7 +103,7 @@
 -
   name: Dordrecht Legal Advice Office and Community Development Agency
   province: EC
-  address: Dordrecht
+  address: 3 Klip Street, Dordrecht
   cellphone: 
     - 073 240-1305
     - 071 795-8987
@@ -111,7 +111,7 @@
   email: dordrecht@adviceoffice.org.za
   contact: Thandeka Ndyumbu
 -
-  name: Elliot Paralegal Advice And Community Development Centre
+  name: Elliot Paralegal Advice and Community Development Centre
   province: EC
   address: 300 Market Street, Old Municipality Building, Elliot
   cellphone: 073 375-1642
@@ -181,9 +181,9 @@
   email: thabisaratshi-1@live.com
   contact: Welile Doda
 -
-  name: Masifunde Education And Development Project Trust
+  name: Masifunde Education and Development Project Trust
   province: EC
-  address: 08 Bathurst Street, Grahamstown
+  address: 8 Bathurst Street, Grahamstown
   cellphone: 078 623-8114
   phone: 046 622-7894
   email: masifunde2015@gmail.com
@@ -223,7 +223,7 @@
 -
   name: Nonesi Development and Legal Advice Office
   province: EC
-  address: 1060 Braamfischer Road, Zone 01, Ezibeleni
+  address: 1060 Braamfischer Road, Zone 1, Ezibeleni
   cellphone: 
     - 083 979-2016
     - 072 435-2700
@@ -265,7 +265,7 @@
 -
   name: Matjhabeng Rape Intervention Care Centre
   province: FS
-  address: 11767 Oppenheimer Park, Thabong SAPS
+  address: 11767 Oppenheimer Park, Matima Road, Thabong 
   cellphone: 072 158-1838
   phone: 057 910-2370
   email: umandifa@webmail.co.za
@@ -281,7 +281,7 @@
 -
   name: Maokeng Advice and Resource Centre
   province: FS
-  address: Selborne Hotel Building Office 205-207
+  address: Office 205-207, Selborne Hotel Building 
   cellphone: 072 052-4168
   phone: 056 213-4190
   email: 
@@ -359,9 +359,9 @@
 -
   name: Ditshwanelo Paralegal Advice
   province: GP
-  address: 
+  address: 4668 Meagong Street, Kagiso 2, Krugersdorp
   cellphone: 
-  phone: 
+  phone: 011 410-2290 
   email: 
   contact: 
 -
@@ -772,7 +772,7 @@
 -
   name: Kgalaletso Advice Centre
   province: GP
-  address: Ga-Rankuwa
+  address: 2909 Zone 2, Rakau Street, Ga-Rankuwa
   cellphone: 076 115-6897
   phone: 
   email: kgalaletson@gmail.com
@@ -790,7 +790,7 @@
 -
   name: Standerton Advice and Development Resources Centre
   province: MP
-  address: 2nd Floor, Willem Veldmans Building, cnr Dr Beyers Naude and Burger Street,Standerton
+  address: 2nd Floor, Willem Veldmans Building, cnr Dr Beyers Naude and Burger Street
   cellphone: 082 479-8741
   phone: 017 712-1479
   email: amon.zwane.sadrc@gmail.com

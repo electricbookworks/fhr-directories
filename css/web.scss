@@ -160,13 +160,6 @@ a.button {
     p, ul, ol, input, a {
         color: white;
     }
-    input {
-        border: 1px dashed white;
-        max-width: none;
-    }
-    input:after {
-        content: "Search";
-    }
     .select-province, .about, .download {
         //text-align: right;
         margin-right: 1em;
@@ -196,9 +189,19 @@ a.button {
     .about {
         float: right;
     }
-    .search {
-        clear: both;
+}
+
+// Search
+
+.search {
+    clear: both;
+    input:after {
+        content: "Search";
     }
+}
+// Search in the body text area
+#wrapper .search input {
+    margin-left: 0;
 }
 
 // Don't how search on certain pages, because we only do on-page search

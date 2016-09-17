@@ -7,12 +7,13 @@ style: home
 slug: cao-directory
 ---
 
+{% include get-slug.html %}
+
+# {{ site.data.meta.titles.cao-directory.title }}
+
+{{ site.data.meta.titles.cao-directory.description }}
+
+To find an office, use the search box or select a province above.
+
 {% include listings-all.html %}
 
-{% comment %}
-
-Since there is only one book/directory in this series, we don't show a series landing page (like the text below) but rather this page redirects to cao-directory/all.html
-
-The `include listings-all.html` tag above is only a fallback in case the redirect breaks.
-
-{% endcomment %}

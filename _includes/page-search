@@ -1,0 +1,3 @@
+<div class="search non-printing">
+<input type="search" placeholder="To find, type here" required="">
+</div><!--.search-->

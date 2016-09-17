@@ -26,7 +26,7 @@ titles:
     creator: "Foundation for Human Rights" # E.g. the author
     contributor: "" # E.g. other contributors
     subject: "Reference" # E.g. BISAC terms (https://www.bisg.org/bisac/bisac-subject-codes) or BIC (http://editeur.dyndns.org/bic_categories)
-    description: "A directory of advice offices around South Africa." # E.g. the blurb
+    description: "This directory lists Community Advice Offices around South Africa. CAOs are independent non-profit organisations that offer free legal services and human rights information, advice and services." # E.g. the blurb
     publisher: "Foundation for Human Rights" # E.g. the publisher, imprint or brand name
     publisher-url: ""
     date: "2016-07-31" # YYYY-MM-DD e.g. publication date

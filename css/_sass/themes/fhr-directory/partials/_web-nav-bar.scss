@@ -1,16 +1,5 @@
 // Nav bar
 
-// Mixins
-// Thanks http://stackoverflow.com/a/17181946/1781075
-@mixin placeholder {
-  &::-webkit-input-placeholder {@content} // Chrome/Opera/Safari
-  &:-moz-placeholder           {@content} // Firefox 18-
-  &::-moz-placeholder          {@content} // Firefox 19+
-  &:-ms-input-placeholder      {@content} // IE 10+
-  &:placeholder-shown          {@content} // Spec
-  &:placeholder                {@content} // Possible future official selector
-}
-
 #nav-bar {
     position: fixed;
     top: 0;
@@ -27,7 +16,7 @@
         padding: 0.5em; // aligns with search field
         float: left;
     }
-    p, ul, ol, input {
+    p, ul, ol {
         font-family: $font-text-secondary;
         font-size: $font-size-default;
         color: #333333;
@@ -36,20 +25,6 @@
         margin: 0;
         ul {
             font-size: inherit;
-        }
-    }
-    input {
-        max-width: 10em;
-        padding: 0.5em;
-        margin-left: 0.5em;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        outline: none;
-        background-color: inherit;
-        border: 1px dashed $color-text-main;
-        @include placeholder {
-            color: $color-text-main;
         }
     }
 }
